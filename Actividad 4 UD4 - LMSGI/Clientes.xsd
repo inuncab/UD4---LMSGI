@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="clientes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="sede"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sede">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="direccion"/>
+        <xs:element ref="empleado"/>
+        <xs:element ref="fechaAlta"/>
+        <xs:element ref="descripcion"/>
+        <xs:element ref="cliente"/>
+      </xs:sequence>
+      <xs:attribute name="codigo" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="direccion" type="xs:string"/>
+  <xs:element name="empleado" type="xs:NCName"/>
+  <xs:element name="fechaAlta" type="xs:string"/>
+  <xs:element name="descripcion" type="xs:NCName"/>
+  <xs:element name="cliente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="codigoCliente"/>
+        <xs:element ref="numero"/>
+        <xs:element ref="coste"/>
+        <xs:element ref="Resumen"/>
+        <xs:element ref="plazo"/>
+      </xs:sequence>
+      <xs:attribute name="codigo" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="codigoCliente" type="xs:NCName"/>
+  <xs:element name="numero" type="xs:integer"/>
+  <xs:element name="coste" type="xs:string"/>
+  <xs:element name="Resumen" type="xs:NCName"/>
+  <xs:element name="plazo" type="xs:string"/>
+</xs:schema>

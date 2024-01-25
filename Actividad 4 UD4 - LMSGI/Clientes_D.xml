@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema/XMLschema-instance"
+    xsi:noNamespaceSchemaLocation="Clientes.xsd">
+        <sede codigo="FFF-3324234">
+            <direccion>calle alfonso III</direccion>
+            <empleado>Pablo</empleado>
+            <fechaAlta>22/07/2011</fechaAlta>
+            <descripcion>solvente</descripcion>
+            <cliente codigo="ERF-234">
+                <numero>3</numero>
+                <coste>5214€</coste>
+                <Resumen>altas</Resumen>
+                <plazo>10 dias</plazo>
+            </cliente>
+        </sede>
+        <sede codigo="BBB-7766277">
+            <direccion>calle Rubrica</direccion>
+            <empleado>Ana</empleado>
+            <fechaAlta>29/03/2017</fechaAlta>
+            <descripcion>insolvente</descripcion>
+            <cliente>
+                <codigoCliente>WUL-576</codigoCliente>
+                <numero>2</numero>
+                <coste>8775€</coste>
+                <Resumen>bajas</Resumen>
+                <plazo>25 dias</plazo>
+            </cliente>
+        </sede>
+    </clientes>

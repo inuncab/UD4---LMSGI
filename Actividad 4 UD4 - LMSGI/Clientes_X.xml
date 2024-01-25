@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clientes SYSTEM "Clientes.dtd">
+
+<clientes>
+    <sede codigo="FFF-3324234">
+        <direccion>Calle Verdadera 456</direccion>
+        <empleado>Ignacio</empleado>
+        <fechaAlta>22/07/2011</fechaAlta>
+        <descripcion>solvente</descripcion>
+        <cliente codigo="ERF-234">
+            <numero>1</numero>
+            <coste>5214€</coste>
+            <Resumen>Vivienda amueblada</Resumen>
+            <plazo>10 dias</plazo>
+        </cliente>
+    </sede>
+    <sede codigo="BBB-7766277">
+        <direccion>calle Rubrica</direccion>
+        <empleado>Ana</empleado>
+        <fechaAlta>29/03/2017</fechaAlta>
+        <descripcion>insolvente</descripcion>
+        <cliente>
+            <codigoCliente>WUL-576</codigoCliente>
+            <numero>2</numero>
+            <coste>8775€</coste>
+            <Resumen>bajas</Resumen>
+            <plazo>25 dias</plazo>
+        </cliente>
+    </sede>
+</clientes>

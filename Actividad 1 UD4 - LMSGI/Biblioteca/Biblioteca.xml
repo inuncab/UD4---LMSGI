@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "Biblioteca.dtd">
+<biblioteca>
+  <libro>
+    <titulo>Harry Potter y la piedra filosofal</titulo>
+    <autor>J.K. Rowling</autor>
+    <genero>Fantasía</genero>
+    <anio>1997</anio>
+    <editorial>Scholastic</editorial>
+  </libro>
+  <libro>
+    <titulo>1984</titulo>
+    <autor>George Orwell</autor>
+    <genero>Ficción distópica</genero>
+    <anio>1949</anio>
+    <editorial>Secker and Warburg</editorial>
+  </libro>
+  <libro>
+    <titulo>Don Quijote de la Mancha</titulo>
+    <autor>Miguel de Cervantes</autor>
+    <genero>Novela</genero>
+    <anio>1605</anio>
+    <editorial>Francisco de Robles</editorial>
+  </libro>
+  <libro>
+    <titulo>Orgullo y prejuicio</titulo>
+    <autor>Jane Austen</autor>
+    <genero>Novela romántica</genero>
+    <anio>1813</anio>
+    <editorial>Thomas Egerton</editorial>
+  </libro>
+  <libro>
+    <titulo>Crónica de una muerte anunciada</titulo>
+    <autor>Gabriel García Márquez</autor>
+    <genero>Realismo mágico</genero>
+    <anio>1981</anio>
+    <editorial>Sudamericana</editorial>
+  </libro>
+  <libro>
+    <titulo>El Hobbit</titulo>
+    <autor>J.R.R. Tolkien</autor>
+    <genero>Fantasía</genero>
+    <anio>1937</anio>
+    <editorial>Allen and Unwin</editorial>
+  </libro>
+  <libro>
+    <titulo>Juego de tronos</titulo>
+    <autor>George R.R. Martin</autor>
+    <genero>Fantasía épica</genero>
+    <anio>1996</anio>
+    <editorial>Bantam Spectra</editorial>
+  </libro>
+  <libro>
+    <titulo>El retrato de Dorian Gray</titulo>
+    <autor>Oscar Wilde</autor>
+    <genero>Novela gótica</genero>
+    <anio>1890</anio>
+    <editorial>Ward, Lock and Co.</editorial>
+  </libro>
+  <libro>
+    <titulo>Los miserables</titulo>
+    <autor>Victor Hugo</autor>
+    <genero>Novela histórica</genero>
+    <anio>1862</anio>
+    <editorial>A. Lacroix, Verboeckhoven and Cie.</editorial>
+  </libro>
+  <libro>
+    <titulo>Fundación</titulo>
+    <autor>Isaac Asimov</autor>
+    <genero>Ciencia ficción</genero>
+    <anio>1951</anio>
+    <editorial>Gnome Press</editorial>
+  </libro>
+</biblioteca>

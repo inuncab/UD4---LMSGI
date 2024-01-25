@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Concesionario SYSTEM "..\Actividad%202%20UD4%20-%20LMSGI/Concesionario.dtd">
+    <Concesionario>
+        <coche>
+            <nombreCoche>BMW Serie 1</nombreCoche>
+            <marca>BMW</marca>
+            <modelo>Serie 1</modelo>
+            <matricula>4672GTY</matricula>
+            <potencia>150CV</potencia>
+            <plazas>5</plazas>
+            <puertas>5</puertas>
+        </coche>
+        <coche>
+            <nombreCoche>Profesional Compact dCi 66kW (90CV) E6</nombreCoche>
+            <marca>Renault</marca>
+            <modelo>Kangoo Furgón</modelo>
+            <matricula>6730TGB</matricula>
+            <potencia>90CV</potencia>
+            <plazas>5</plazas>
+            <puertas>4</puertas>
+        </coche>
+        <coche>
+            <nombreCoche>Volkswagen Golf GTI Performance 2.0 TSI</nombreCoche>
+            <marca>Volkswagen</marca>
+            <modelo>Golf GTI Performance 2.0 TSI</modelo>
+            <matricula>8932LLT</matricula>
+            <potencia>245CV</potencia>
+            <plazas>5</plazas>
+            <puertas>5</puertas>
+        </coche>
+        <coche>
+            <nombreCoche>Audi A3 35 TDI 110kW (150CV) S tronic Sportback</nombreCoche>
+            <marca>Audi</marca>
+            <modelo>A3 TDI S Tronic Sportback</modelo>
+            <matricula>3204LMR</matricula>
+            <potencia>150CV</potencia>
+            <plazas>5</plazas>
+            <puertas>5</puertas>
+        </coche>
+        <coche>
+            <nombreCoche>Toyota Hilux  2.4 D-4D Cabina Doble GX</nombreCoche>
+            <marca>Toyota</marca>
+            <modelo>Hilux 2.4 D-4D GX</modelo>
+            <matricula>3894JTY</matricula>
+            <potencia>150CV</potencia>
+            <plazas>5</plazas>
+            <puertas>4</puertas>
+        </coche>
+    </Concesionario>

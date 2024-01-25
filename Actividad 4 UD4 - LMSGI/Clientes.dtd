@@ -1,0 +1,18 @@
+<!ELEMENT clientes (sede)+>
+<!ELEMENT sede (direccion,empleado,fechaAlta,descripcion,cliente)>
+<!ATTLIST sede
+  xmlns CDATA #FIXED ''
+  codigo NMTOKEN #REQUIRED>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT empleado (#PCDATA)>
+<!ELEMENT fechaAlta (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT cliente (codigoCliente?,numero,coste,Resumen,plazo)>
+<!ATTLIST cliente
+  xmlns CDATA #FIXED ''
+  codigo NMTOKEN #IMPLIED>
+<!ELEMENT codigoCliente (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT coste (#PCDATA)>
+<!ELEMENT Resumen (#PCDATA)>
+<!ELEMENT plazo (#PCDATA)>
