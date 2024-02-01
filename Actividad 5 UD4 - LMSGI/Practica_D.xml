@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE practicas SYSTEM "Practica.dtd">
+<practicas>
+    <alumno>
+        <NIF>88888888D</NIF>
+        <resultado>No Apto</resultado>
+        <obserbaciones>
+            <edad>43 Años</edad>
+        </obserbaciones>
+        <ip>192.168.23.65</ip>
+    </alumno>
+    <alumno>
+        <NIF>12345678U</NIF>
+        <resultado>Apto</resultado>
+        <ip>192.168.48.112</ip>
+    </alumno>
+</practicas>

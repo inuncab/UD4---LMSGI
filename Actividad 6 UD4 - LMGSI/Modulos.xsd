@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="cfgs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="modulo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="modulo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre_modulo"/>
+        <xs:element maxOccurs="unbounded" ref="Unidad_didactica"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombre_modulo" type="xs:string"/>
+  <xs:element name="Unidad_didactica">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="numero_unidad"/>
+        <xs:element ref="contenidos"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="numero_unidad" type="xs:integer"/>
+  <xs:element name="contenidos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tipo"/>
+        <xs:element ref="descripcion"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tipo" type="xs:string"/>
+  <xs:element name="descripcion" type="xs:string"/>
+</xs:schema>
