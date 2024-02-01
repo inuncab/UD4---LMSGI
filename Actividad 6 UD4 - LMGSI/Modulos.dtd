@@ -1,8 +1,0 @@
-<!ELEMENT cfgs (modulo)+>
-<!ELEMENT modulo (nombre_modulo,Unidad_didactica+)>
-<!ELEMENT nombre_modulo (#PCDATA)>
-<!ELEMENT Unidad_didactica (numero_unidad,contenidos)>
-<!ELEMENT numero_unidad (#PCDATA)>
-<!ELEMENT contenidos (tipo,descripcion)>
-<!ELEMENT tipo (#PCDATA)>
-<!ELEMENT descripcion (#PCDATA)>
