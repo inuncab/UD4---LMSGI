@@ -1,7 +1,0 @@
-<!ELEMENT practicas (alumno)+>
-<!ELEMENT alumno (NIF,resultado,obserbaciones?,ip)>
-<!ELEMENT NIF (#PCDATA)>
-<!ELEMENT resultado (#PCDATA)>
-<!ELEMENT obserbaciones (edad)>
-<!ELEMENT ip (#PCDATA)>
-<!ELEMENT edad (#PCDATA)>
