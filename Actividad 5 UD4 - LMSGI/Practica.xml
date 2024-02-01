@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<practicas>
+    <alumno>
+        <NIF>15482651R</NIF>
+        <resultado>No Apto</resultado>
+        <obserbaciones>
+            <Texto>Es muy buena gente</Texto>
+        </obserbaciones>
+        <ip>192.168.23.65</ip>
+    </alumno>
+    <alumno>
+        <NIF>12345678U</NIF>
+        <resultado>Apto</resultado>
+        <Observaciones>
+
+        </Observaciones>
+        <ip>192.168.48.112</ip>
+    </alumno>
+</practicas>
