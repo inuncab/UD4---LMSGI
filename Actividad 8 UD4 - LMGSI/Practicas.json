@@ -1,0 +1,20 @@
+{
+    "practicas": {
+      "alumno": [
+        {
+          "NIF": "15482651R",
+          "resultado": "No Apto",
+          "obserbaciones": {
+            "Texto": "Es muy buena gente"
+          },
+          "ip": "192.168.23.65"
+        },
+        {
+          "NIF": "12345678U",
+          "resultado": "Apto",
+          "Observaciones": "",
+          "ip": "192.168.48.112"
+        }
+      ]
+    }
+  }

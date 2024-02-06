@@ -1,0 +1,51 @@
+{
+    "Concesionario": {
+      "coche": [
+        {
+          "nombreCoche": "BMW Serie 1",
+          "marca": "BMW",
+          "modelo": "Serie 1",
+          "matricula": "4672GTY",
+          "potencia": "150CV",
+          "plazas": 5,
+          "puertas": 5
+        },
+        {
+          "nombreCoche": "Profesional Compact dCi 66kW (90CV) E6",
+          "marca": "Renault",
+          "modelo": "Kangoo Furgón",
+          "matricula": "6730TGB",
+          "potencia": "90CV",
+          "plazas": 5,
+          "puertas": 4
+        },
+        {
+          "nombreCoche": "Volkswagen Golf GTI Performance 2.0 TSI",
+          "marca": "Volkswagen",
+          "modelo": "Golf GTI Performance 2.0 TSI",
+          "matricula": "8932LLT",
+          "potencia": "245CV",
+          "plazas": 5,
+          "puertas": 5
+        },
+        {
+          "nombreCoche": "Audi A3 35 TDI 110kW (150CV) S tronic Sportback",
+          "marca": "Audi",
+          "modelo": "A3 TDI S Tronic Sportback",
+          "matricula": "3204LMR",
+          "potencia": "150CV",
+          "plazas": 5,
+          "puertas": 5
+        },
+        {
+          "nombreCoche": "Toyota Hilux  2.4 D-4D Cabina Doble GX",
+          "marca": "Toyota",
+          "modelo": "Hilux 2.4 D-4D GX",
+          "matricula": "3894JTY",
+          "potencia": "150CV",
+          "plazas": 5,
+          "puertas": 4
+        }
+      ]
+    }
+  }

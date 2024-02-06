@@ -1,0 +1,44 @@
+{
+  "cfgs": {
+    "modulo": [
+      {
+        "nombre_modulo": "Programacion",
+        "Unidad_didactica": [
+          {
+            "numero_unidad": 1,
+            "contenidos": {
+              "tipo": "En bloques",
+              "descripcion": "Programacion por bloques en una pagina web"
+            }
+          },
+          {
+            "numero_unidad": 3,
+            "contenidos": {
+              "tipo": "Python",
+              "descripcion": "Programacion en python a traves de Arduino"
+            }
+          }
+        ]
+      },
+      {
+        "nombre_modulo": "Base de datos",
+        "Unidad_didactica": [
+          {
+            "numero_unidad": 3,
+            "contenidos": {
+              "tipo": "MYSQL",
+              "descripcion": "Aprender a gestionar una base de datos"
+            }
+          },
+          {
+            "numero_unidad": 4,
+            "contenidos": {
+              "tipo": "Modelo entidad relacion",
+              "descripcion": "Aprender a gestionar una base de datos a traves del modelo entidad relacion"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

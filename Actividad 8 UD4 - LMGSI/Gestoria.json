@@ -1,0 +1,31 @@
+{
+    "clientes": {
+      "sede": [
+        {
+          "direccion": "Calle Verdadera 456",
+          "empleado": "Ignacio",
+          "fechaAlta": "22/07/2011",
+          "descripcion": "solvente",
+          "cliente": {
+            "numero": 1,
+            "coste": "5214€",
+            "Resumen": "Vivienda amueblada",
+            "plazo": "10 dias"
+          }
+        },
+        {
+          "direccion": "calle Rubrica",
+          "empleado": "Ana",
+          "fechaAlta": "29/03/2017",
+          "descripcion": "insolvente",
+          "cliente": {
+            "codigoCliente": "WUL-576",
+            "numero": 2,
+            "coste": "8775€",
+            "Resumen": "bajas",
+            "plazo": "25 dias"
+          }
+        }
+      ]
+    }
+  }
